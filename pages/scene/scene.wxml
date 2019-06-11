@@ -1,0 +1,21 @@
+<!--pages/scene/scene.wxml-->
+<view class='div0'>
+  <view class='div1' id='sceneeditor'>
+    <canvas 
+    style="width:{{canvasWidth}}px; height:{{canvasHeight}}px;"
+    class='editor'
+     canvas-id='scene'
+     catchtouchstart='ontouchstart'
+     catchtouchmove='ontouchmove'
+     catchtouchend='ontouchend'>
+     </canvas>
+  </view>
+  <swiper class='div2' display-multiple-items='{{4}}' circular='{{true}}' previous-margin='10rpx' next-margin='10px'>
+    <swiper-item wx:key="cover" wx:for="{{templates}}">
+      <view class="mi5 {{currentNewScene==index ? 'mi5active':''}}" bindtap='ontouch' data-index="{{index}}">
+        <image class='mi51' mode='aspectFit' src='{{item.cover}}'></image>
+      </view>
+    </swiper-item>
+  </swiper>
+  <button class='btn' bindtap='downloadpic'>保存图片</button>
+</view>

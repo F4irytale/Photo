@@ -1,0 +1,8 @@
+<view class='view'>
+<view class='text'>图趣水印</view>
+<view class='wenzi'>--用水印记录生活</view>
+<view class='are'>
+<image class='img1' src='../../img/1.jpg' mode='widthFix'></image>
+</view>
+<button class='btn' bindtap='onclick'>上传图片</button>
+</view>

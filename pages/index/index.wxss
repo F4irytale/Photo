@@ -1,0 +1,36 @@
+.text{
+  text-align: center;
+  color:rgb(122,2,60);
+  font-size: 60px;
+  font-family: "宋体"
+}
+.wenzi{
+  font-size: 20px;
+  position: absolute;
+  right: 15px;
+  color: rgb(122,2,60);
+  font-family: "宋体";
+
+}
+.are{
+   display: flex;
+   justify-content: center;
+}
+.img1{
+  width:90%;
+  margin-top: 40px;
+  border-radius: 5px;
+
+ 
+}
+page{
+background-color: rgba(236, 156, 167, 0.842);
+  overflow: hidden;
+}
+.btn{
+  width: 60%;
+  margin-top: 70px;
+  background-color:rgb(235, 237, 244);
+  color:rgb(122,2,60);
+}
+

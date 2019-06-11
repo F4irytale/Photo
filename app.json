@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/scene/scene",
+    
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ebedf4",
+    "navigationBarTitleText": "图趣水印",
+    "navigationBarTextStyle": "black"
+  }
+}
